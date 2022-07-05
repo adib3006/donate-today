@@ -86,3 +86,15 @@ p{
 .category-description{
     font-size: 13px;
 }
+#ongoing-campaigns{
+    padding :5%;
+    text-align: center;
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+.half-width img {
+    width: 80%;
+    border-radius: 5px;
+}
