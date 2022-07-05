@@ -4,6 +4,10 @@ body{
 #banner-heading{
     font-size: 50px;
 }
+h1{
+    font-size: 35px;
+    font-weight: 900;
+}
 .top-banner{
     text-align: center;
     color: white;
@@ -20,4 +24,36 @@ body{
     color: white;
     padding: 10px 10px;
     border-radius: 5px;
+}
+#donation-section{
+    padding: 5% 20%;
+    text-align: center;
+}
+.flexible-container{
+    display: flex;
+}
+.donations{
+    height: 50px;
+    width: 130px;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    color: rgb(110, 110, 110);
+    background-color: rgb(247, 247, 247);
+    margin: 2%;
+    border-radius: 5px;
+}
+#selected-donation{
+    background-color: rgb(255, 238, 238);
+    color: #ff6666;
+    border: 2px solid #ff6666;
+}
+#amount{
+    width: 750px;
+    height: 30px;
+    border: 0;
+    border-bottom: 2px solid rgb(212, 212, 212);
+    text-align: center;
+    color: rgb(201, 201, 201);
+    margin-bottom: 25px;
 }
