@@ -1,21 +1,27 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-#banner-heading{
+.heading{
     font-size: 50px;
 }
 h1{
     font-size: 35px;
     font-weight: 900;
 }
-.top-banner{
+p{
+    color: rgb(110, 110, 110);
+}
+.sections{
+    padding: 3% 20%;
     text-align: center;
+}
+#top-banner {
+    padding: 10%;
     color: white;
     background-image: url(images/donation12.png);
     background-repeat: no-repeat;
-    padding: 10%;
 }
-#top-text{
+.text{
     margin-bottom: 40px;
 }
 .link-button{
@@ -24,10 +30,6 @@ h1{
     color: white;
     padding: 10px 10px;
     border-radius: 5px;
-}
-#donation-section{
-    padding: 5% 20%;
-    text-align: center;
 }
 .flexible-container{
     display: flex;
@@ -56,4 +58,31 @@ h1{
     text-align: center;
     color: rgb(201, 201, 201);
     margin-bottom: 25px;
+}
+.donation-category{
+    width: 33%;
+    margin: 5px;
+    background-color: rgb(206, 206, 206);
+    padding-left: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 2%;
+    text-align: left;
+    font-size: 14px;
+}
+.category-icons{
+    width:20%;
+    border-bottom: 0;
+}
+#category-1{
+    background-color: rgb(223, 241, 236);
+}
+#category-2{
+    background-color: rgb(252, 236, 238);
+}
+#category-3{
+    background-color: lightgoldenrodyellow;
+}
+.category-description{
+    font-size: 13px;
 }
